@@ -1,8 +1,8 @@
 import discord
 from AntiScam import AntiScam
 
-whitelist = [] # Here you can add the IDs of the users allowed to bypass the AntiScam system.
-logs_channel = None # Here you can add the ID of the channel where the logs will be sent.
+whitelist = [1001166646993494167] # Here you can add the IDs of the users allowed to bypass the AntiScam system.
+logs_channel = 1199757098184101958 # Here you can add the ID of the channel where the logs will be sent.
 
 intents = discord.Intents.default()
 intents.message_content = True
